@@ -232,8 +232,10 @@
 						</div>
 					</div>
 
-					{% include menu.html %}
-
+					<div id="menu"></div>
+					<script>
+						$("#menu").load("menu.html")
+					</script>
 			</div>
 
 		<!-- Scripts -->
